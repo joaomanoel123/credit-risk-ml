@@ -2,7 +2,11 @@
 “Sem otimização de threshold, o modelo aprovaria mais clientes, mas geraria prejuízo devido ao custo alto de inadimplência. A otimização mudou a estratégia de crescimento para proteção de capital.”
 ## 💰 Business Impact
 ---
-- Random Forest gerou +R$853k de lucro incremental na simulação
+💰 +R$853k lucro incremental via ML
+
+Sistema de decisão de crédito orientado a lucro,
+não apenas métricas estatísticas.
+
 - Threshold otimizado aumentou lucro em +8.3%
 - Decisão baseada em impacto financeiro, não apenas métricas
 
