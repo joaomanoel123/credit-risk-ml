@@ -2,7 +2,7 @@
 “Sem otimização de threshold, o modelo aprovaria mais clientes, mas geraria prejuízo devido ao custo alto de inadimplência. A otimização mudou a estratégia de crescimento para proteção de capital.”
 ## 💰 Business Impact
 ---
-- Random Forest gerou +R$853k
+- Random Forest gerou +R$853k de lucro incremental na simulação
 - Threshold otimizado aumentou lucro em +8.3%
 - Decisão baseada em impacto financeiro, não apenas métricas
 
@@ -529,6 +529,15 @@ docker run -p 8000:8000 credit-risk-api
 - [x] Dockerfile com `python:3.11-slim` e healthcheck
 
 ---
+
+## 📊 Contexto do Experimento
+
+- Dataset: 50.000 clientes (dados sintéticos)
+- Taxa de default: ~20%
+- Split: 80/20 estratificado
+- Avaliação baseada em lucro financeiro, não apenas métricas estatísticas
+
+
 
 ## Licença
 
