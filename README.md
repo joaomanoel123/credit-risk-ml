@@ -13,7 +13,37 @@ não apenas métricas estatísticas.
 > Sistema de Machine Learning para decisão de crédito orientada a lucro.
 > Pipeline end-to-end com modelagem, explicabilidade, simulação de negócio e deploy em produção.
 > Projeto focado em decisões reais de crédito, onde o objetivo não é maximizar AUC, mas lucro financeiro.
+# 🏦 Credit Risk ML — Decision System
+
+💰 **+R$853.000 de lucro incremental via Machine Learning**
+
+Sistema de decisão de crédito orientado a **lucro**, não apenas métricas estatísticas.
+
 ---
+
+## 🚀 Key Highlights
+
+- 📈 Otimização de threshold → **+8.3% de lucro**
+- 🧠 Modelos: Logistic Regression, Random Forest, XGBoost
+- ⚙️ Pipeline end-to-end (EDA → Modelagem → Deploy)
+- 📊 Simulação de impacto financeiro (lucro/prejuízo real)
+- 🔍 Explicabilidade com SHAP
+- 🚀 API em produção com FastAPI + Docker
+
+---
+
+## 💡 Business Insight
+
+Sem otimização de threshold, o modelo aprovava mais clientes,  
+mas gerava prejuízo devido ao alto custo de inadimplência.
+
+👉 A solução mudou a estratégia de crescimento para **proteção de capital**.
+
+---
+
+## ⚡ Quick Demo
+```bash
+uvicorn app.main:app --reload
 
 ## Índice
 
