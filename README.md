@@ -7,9 +7,7 @@
 - Decisão baseada em impacto financeiro, não apenas métricas
 
 > Sistema de Machine Learning para decisão de crédito orientada a lucro.
-> Sistema de Machine Learning para decisão de crédito orientada a lucro.
 > Pipeline end-to-end com modelagem, explicabilidade, simulação de negócio e deploy em produção.
-> Projeto focado em decisões reais de crédito, onde o objetivo não é maximizar AUC, mas lucro financeiro.
 > Projeto focado em decisões reais de crédito, onde o objetivo não é maximizar AUC, mas lucro financeiro.
 ---
 
