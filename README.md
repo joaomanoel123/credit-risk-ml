@@ -5,6 +5,7 @@
 - Threshold otimizado aumentou lucro em X%
 - Decisão baseada em impacto financeiro, não apenas métricas
 
+
 > Sistema de Machine Learning para previsão de risco de crédito.  
 > Pipeline completo de ponta a ponta — pronto para portfólio e ambiente de produção.
 > Projeto focado em decisões reais de crédito, onde o objetivo não é maximizar AUC, mas lucro financeiro.
@@ -189,7 +190,7 @@ O projeto é organizado em **5 notebooks sequenciais** onde cada um persiste art
 - Ganho vs baseline calculado e exibido para cada modelo
 - Curvas ROC sobrepostas + tabela comparativa de todas as métricas
 - Feature importance lado a lado (RF vs XGBoost), com destaque nas features derivadas
-- Seleção automática do melhor modelo por AUC
+- Seleção do modelo final baseada em impacto de negócio (lucro), não apenas métricas estatísticas
 - **Saída:** `models/random_forest.pkl`, `models/xgboost.pkl`, `models/best_model.pkl`
 
 #### `05_decision_simulation.ipynb` — Simulação de Negócio
