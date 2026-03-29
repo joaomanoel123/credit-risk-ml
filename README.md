@@ -529,7 +529,34 @@ docker run -p 8000:8000 credit-risk-api
 - [x] Dockerfile com `python:3.11-slim` e healthcheck
 
 ---
+## 📊 Dataset
 
+Este projeto foi desenvolvido e validado utilizando múltiplas fontes de dados:
+
+### 1. Dataset real (principal)
+- Fonte: Kaggle / Open Dataset
+- Descrição: Dados reais de crédito com histórico de clientes
+- Exemplos de variáveis: renda, score de crédito, dívida/renda, histórico de consultas
+- Dataset: Give Me Some Credit (Kaggle)
+- Tamanho: ~150k registros
+- Problema: previsão de inadimplência
+
+> Este dataset foi utilizado para validação do modelo em cenário realista.
+
+### 2. Dataset sintético
+- Gerado via `generate_data.py`
+- Utilizado para:
+  - Testes de robustez
+  - Simulações financeiras controladas
+  - Reprodutibilidade do projeto
+
+### Estratégia
+
+O modelo foi:
+- Treinado e validado em dados reais
+- Testado em dados sintéticos para simulação de cenários de negócio
+
+---
 ## 📊 Contexto do Experimento
 
 - Dataset: 50.000 clientes (dados sintéticos)
