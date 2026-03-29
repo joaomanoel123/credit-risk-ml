@@ -3,7 +3,7 @@
 ## 💰 Business Impact
 ---
 - Random Forest gerou +R$853k
-- Threshold otimizado aumentou lucro em ~7–10%
+- Threshold otimizado aumentou lucro em +8.3%****
 - Decisão baseada em impacto financeiro, não apenas métricas
 
 > Sistema de Machine Learning para decisão de crédito orientada a lucro.
