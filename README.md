@@ -1,4 +1,9 @@
 # Credit Risk ML 
+## Bussiness impact 
+---
+- Random Forest gerou +R$853k
+- Threshold otimizado aumentou lucro em X%
+- Decisão baseada em impacto financeiro, não apenas métricas
 
 > Sistema de Machine Learning para previsão de risco de crédito.  
 > Pipeline completo de ponta a ponta — pronto para portfólio e ambiente de produção.
