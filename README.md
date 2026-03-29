@@ -529,51 +529,62 @@ docker run -p 8000:8000 credit-risk-api
 - [x] Dockerfile com `python:3.11-slim` e healthcheck
 
 ---
-#📊 Dataset
+📊 Dataset
 
-Este projeto foi desenvolvido utilizando dados reais e sintéticos para garantir realismo + controle experimental.
+Este projeto foi desenvolvido utilizando uma combinação de dados reais e sintéticos, permitindo equilíbrio entre realismo de mercado e controle experimental.
 
 1. Dataset real (principal)
 Fonte: Kaggle
 Dataset: Give Me Some Credit
-Link: https://www.kaggle.com/c/GiveMeSomeCredit
 
 Descrição:
-Dataset com histórico real de clientes utilizado para prever inadimplência.
+
+Dataset amplamente utilizado como benchmark em problemas de credit scoring, contendo histórico real de clientes e seu comportamento de pagamento.
 
 Características:
 
 ~150.000 registros
 Problema de classificação binária (default vs não-default)
-Dados altamente desbalanceados (~20% default)
+Forte desbalanceamento (~20% inadimplentes)
+Dados financeiros reais com ruído e inconsistências típicas de produção
 
 Principais variáveis:
 
-Utilization de crédito
-Idade
-Dívida/renda
+Utilization de crédito (uso do limite)
+Idade do cliente
+Relação dívida/renda (debt-to-income)
 Número de contas abertas
 Histórico de atraso
 
 Uso no projeto:
 
-Treinamento dos modelos
-Validação de performance realista
-Definição do threshold ótimo baseado em lucro
+Treinamento dos modelos principais
+Avaliação de performance em cenário realista
+Base para otimização do threshold orientado a lucro
 2. Dataset sintético
-Gerado via `generate_data.py
-### 2. Dataset sintético
-- Gerado via `generate_data.py`
-- Utilizado para:
-  - Testes de robustez
-  - Simulações financeiras controladas
-  - Reprodutibilidade do projeto
+Gerado via generate_data.py
 
-### Estratégia
+Objetivo:
 
-O modelo foi:
-- Treinado e validado em dados reais
-- Testado em dados sintéticos para simulação de cenários de negócio
+Criar um ambiente controlado para testes e simulações de negócio.
+
+Utilização:
+
+Testes de robustez do pipeline
+Simulação de cenários financeiros (lucro/prejuízo)
+Reprodutibilidade do projeto sem dependência externa
+Estratégia de uso dos dados
+
+O projeto adota uma abordagem híbrida:
+
+Modelos treinados e validados em dados reais
+Simulações financeiras executadas em dados sintéticos
+
+Essa estratégia permite:
+
+Maior confiabilidade nos resultados
+Testes controlados de impacto de negócio
+Independência de fontes externas em ambiente de deploy
 
 ---
 ## 📊 Contexto do Experimento
