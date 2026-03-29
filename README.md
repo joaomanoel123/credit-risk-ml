@@ -1,6 +1,6 @@
 # Credit Risk ML 🏦
 
-## 💰 Business Impac
+## 💰 Business Impact
 ---
 - Random Forest gerou +R$853k
 - Threshold otimizado aumentou lucro em ~7–10%
