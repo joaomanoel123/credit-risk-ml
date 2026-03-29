@@ -1,5 +1,5 @@
 # Credit Risk ML 🏦
-
+“Sem otimização de threshold, o modelo aprovaria mais clientes, mas geraria prejuízo devido ao custo alto de inadimplência. A otimização mudou a estratégia de crescimento para proteção de capital.”
 ## 💰 Business Impact
 ---
 - Random Forest gerou +R$853k
