@@ -2,7 +2,7 @@
 
 > Sistema de Machine Learning para previsão de risco de crédito.  
 > Pipeline completo de ponta a ponta — pronto para portfólio e ambiente de produção.
-
+> Projeto focado em decisões reais de crédito, onde o objetivo não é maximizar AUC, mas lucro financeiro.
 ---
 
 ## Índice
